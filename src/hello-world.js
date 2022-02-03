@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import './hello-word.css';
+import './hello-world.css';
 
-function HelloWord() {
+function HelloWorld() {
 const [mensagge, setMensagge] = useState("");
 
 useEffect(() => {
@@ -17,4 +17,4 @@ useEffect(() => {
   );
 }
 
-export default HelloWord;
+export default HelloWorld;

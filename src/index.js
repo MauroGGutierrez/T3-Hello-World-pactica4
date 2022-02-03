@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWord from './hello-word';
-import "./hello-word.css"
+import HelloWorld from './hello-world';
+import "./hello-world.css"
 
 ReactDOM.render(
-    <HelloWord />,
+    <HelloWorld />,
   document.getElementById('root')
 );
 
